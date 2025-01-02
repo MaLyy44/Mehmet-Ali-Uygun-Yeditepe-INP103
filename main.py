@@ -1,6 +1,11 @@
-x1=int(input("x1="))
-y1=int(input("y1="))
-x2=int(input("x2="))
-y2=int(input("y2="))
-d=y2-y1//x2-y1
-print(d)
+z1=int(input("zahl 1 ="))
+z2=int(input("zahl 2 ="))
+if z1<z2:
+ for i in range(z1,z2+1):
+   print(i)
+elif z1>z2:
+  for i in range(z2,z1+1):
+   print(i)
+  else:
+    print("Ungültige Eingabe")
+
